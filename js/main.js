@@ -71,6 +71,19 @@ new Swiper('.promotion .swiper-container', {
     }
 });
 
+new Swiper('.awards .swiper-container', {
+    autoplay: true,
+    loop: true,
+    spaceBetween: 30,
+    slidesPerView: 5,
+    navigation: {
+        prevEl: '.awards .swiper-prev',
+        nextEl: '.awards .swiper-next',
+    }
+})
+
+
+
 const promotionEl = document.querySelector('.promotion');
 const promotionToggleBtn = document.querySelector('.toggle-promotion');
 let isHidePromotion = false;
@@ -117,3 +130,4 @@ spyELs.forEach(function (spyEl) {
         .setClassToggle(spyEl, 'show') // 클래스를 추가해줌
         .addTo(new ScrollMagic.Controller());
 })
+
