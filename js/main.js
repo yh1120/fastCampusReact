@@ -72,10 +72,10 @@ new Swiper('.promotion .swiper-container', {
     spaceBetween: 10,
     centeredSlides: true,
     loop: true,
-    // autoplay:{
-    //     delay: 5000,
+    autoplay:{
+        delay: 5000,
 
-    // }
+    },
     pagination : {
         el: '.promotion .swiper-pagination',
         clickable: true

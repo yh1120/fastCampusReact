@@ -814,7 +814,7 @@ header .badges .badge {
     position: absolute;
     backface-visibility: hidden;
     transition: 1s;
-    
+
 }
 
 .reserve-store .medal .front {
@@ -927,7 +927,6 @@ header .badges .badge {
     margin: auto;
 }
 
-align-items
 .awards .swiper-prev {
     left: -100px;
 }
@@ -1008,7 +1007,7 @@ footer .btn-group .btn:last-child {
 
 footer .info {
     margin-top: 30px;
-    text-align: center;    
+    text-align: center;
 }
 
 footer .info span {
